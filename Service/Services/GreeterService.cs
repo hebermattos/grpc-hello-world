@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Grpc.Core;
 using Microsoft.Extensions.Logging;
 
-namespace GrpcGreeter
+namespace Service
 {
     public class GreeterService : Greeter.GreeterBase
     {
